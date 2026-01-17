@@ -31,7 +31,7 @@ jobs:
       - name: Pull, retag and push to Docker Hub
         run: |
           SOURCE_IMAGE="ghcr.io/mzhangxy/normal2go:v1"
-          TARGET_IMAGE="mzhangxy/normal2go:v1"           # ← 这里改成你想要的 Docker Hub 镜像名和 tag
+          TARGET_IMAGE="mzhangxy/ws2go:v1"           # ← 这里改成你想要的 Docker Hub 镜像名和 tag
 
           echo "Pulling ${SOURCE_IMAGE} ..."
           docker pull "${SOURCE_IMAGE}"
