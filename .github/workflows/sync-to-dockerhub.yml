@@ -1,4 +1,4 @@
-name: Sync normal2go from GHCR to Docker Hub
+name: Sync image from GHCR to Docker Hub
 
 on:
   workflow_dispatch:          # 允许手动触发（推荐先手动跑一次测试）
